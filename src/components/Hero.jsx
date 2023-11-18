@@ -5,7 +5,7 @@ import dev1 from '../assets/dev1.svg'
 const Hero = () => {
     return (
         <div className='bg-teal-200 py-24'>
-            <div className="mx-auto max-w-7xl px-8 grid md:grid-cols-2 items-center gap-8">
+            <div className=" align-element align-e grid md:grid-cols-2 items-center gap-8">
                 <article>
                     {/*eslint-disable-next-line react/no-unescaped-entities*/}
                     <h1 className='text-7xl font-bold tracking-wider'>I'm <span className="text-teal-600">Manuel</span></h1>
