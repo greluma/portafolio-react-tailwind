@@ -1,6 +1,6 @@
 // cspell:ignore Linkedin
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-import dev1 from '../assets/dev1.svg'
+import heroImg from '../assets/dev1.svg'
 
 const Hero = () => {
     return (
@@ -21,7 +21,7 @@ const Hero = () => {
                     </div>
                 </article>
                 <article >
-                    <img src={dev1} alt="developer" className='h-52' />
+                    <img src={heroImg} alt="developer" className='h-52' />
                 </article>
             </div>
         </div>
