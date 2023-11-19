@@ -33,26 +33,26 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: './assets/backroads.png',
+    img: '/public/backroads.png',
     url: 'https://temporal-backroads-app.netlify.app/',
     github: 'https://github.com/greluma/temp-backroads-app',
     title: 'Backroads Tour Company',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
   },
   {
     id: nanoid(),
-    img: './assets/drinks.png',
+    img: '/public/drinks.png',
     url: 'https://greluma-drinks-master.netlify.app/',
     github: 'https://github.com/greluma/drinks-master',
     title: 'Wiki Cocktails',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
   },
   {
     id: nanoid(),
-    img: './assets/unsplash.png',
+    img: '/public/unsplash.png',
     url: 'https://greluma-unsplash-project.netlify.app/',
     github: 'https://github.com/greluma/unsplash-images-tuto',
     title: 'Unsplash API Images',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
   },
 ];
