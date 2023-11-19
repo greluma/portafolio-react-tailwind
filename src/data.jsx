@@ -33,7 +33,8 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: '/public/backroads.png',
+    // img: '/public/backroads.png',
+    img: '/backroads.png',
     url: 'https://temporal-backroads-app.netlify.app/',
     github: 'https://github.com/greluma/temp-backroads-app',
     title: 'Backroads Tour Company',
@@ -41,7 +42,8 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/public/drinks.png',
+    // img: '/public/drinks.png',
+    img: '/drinks.png',
     url: 'https://greluma-drinks-master.netlify.app/',
     github: 'https://github.com/greluma/drinks-master',
     title: 'Wiki Cocktails',
@@ -49,7 +51,8 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/public/unsplash.png',
+    // img: '/public/unsplash.png',
+    img: '/unsplash.png',
     url: 'https://greluma-unsplash-project.netlify.app/',
     github: 'https://github.com/greluma/unsplash-images-tuto',
     title: 'Unsplash API Images',
