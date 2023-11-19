@@ -29,29 +29,30 @@ export const skills = [
   },
 ];
 
+// cspell:disable
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
+    img: './assets/backroads.png',
+    url: 'https://temporal-backroads-app.netlify.app/',
+    github: 'https://github.com/greluma/temp-backroads-app',
+    title: 'Backroads Tour Company',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
+    img: './assets/drinks.png',
+    url: 'https://greluma-drinks-master.netlify.app/',
+    github: 'https://github.com/greluma/drinks-master',
+    title: 'Wiki Cocktails',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
+    img: './assets/unsplash.png',
+    url: 'https://greluma-unsplash-project.netlify.app/',
+    github: 'https://github.com/greluma/unsplash-images-tuto',
+    title: 'Unsplash API Images',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
 ];
