@@ -10,9 +10,9 @@ const ProjectCard = ({ url, img, github, title, text }) => {
                 <h2 className="text-xl tracking-wide font-medium text-teal-600">{title}</h2>
                 <p className="mt-4 text-slate-700 leading-loose" >{text}</p>
                 <div className="mt-4 flex gap-x-4 justify-center">
-                    <a href={url} target="_blank" rel="noreferrer">
+                    {url && <a href={url} target="_blank" rel="noreferrer">
                         <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-teal-600 duration-300"></TbWorldWww>
-                    </a>
+                    </a>}
                     <a href={github} target="_blank" rel="noreferrer">
                         <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-teal-600 duration-300"></FaGithubSquare>
                     </a>

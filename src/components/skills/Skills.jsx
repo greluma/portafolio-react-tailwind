@@ -2,9 +2,11 @@ import { skills } from '../../data'
 import SectionTitle from '../utils/SectionTitle'
 import SkillCard from './SkillCard'
 
+
+
 const Skills = () => {
     return (
-        <section className="py-10 align-element" id="skills">
+        <section className="align-element py-24" id="skills">
             <SectionTitle text={['tech', 'stack']}></SectionTitle>
             <div className="py-5 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {skills.map((skill) => {

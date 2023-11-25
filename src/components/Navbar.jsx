@@ -1,8 +1,15 @@
+import { useEffect, useRef } from 'react';
 import { links } from "../data"
 
 const Navbar = () => {
+    const navRef = useRef();
+
+    useEffect(() => {
+        console.log(navRef.current.offsetHeight);
+    }, []);
+
     return (
-        <nav className="bg-teal-200">
+        <nav ref={navRef} className="bg-teal-200">
             <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
                 <h2 className="text-3xl font-bold">Web<span className="text-teal-600">Dev</span></h2>
                 <div className="flex gap-x-3">
@@ -15,4 +22,4 @@ const Navbar = () => {
         </nav>
     )
 }
-export default Navbar
+export default Navbar;
