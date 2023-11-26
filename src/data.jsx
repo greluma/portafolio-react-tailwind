@@ -40,14 +40,6 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: '/backroads.png',
-    url: 'https://temporal-backroads-app.netlify.app/',
-    github: 'https://github.com/greluma/temp-backroads-app',
-    title: 'Backroads Tour Company',
-    text: 'My first React project. A tour company website with a focus on responsive design and optimization for a variety of devices and browsers.',
-  },
-  {
-    id: nanoid(),
     img: '/unsplash.png',
     url: 'https://greluma-unsplash-project.netlify.app/',
     github: 'https://github.com/greluma/unsplash-images-tuto',
@@ -56,7 +48,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/unsplash.png',
+    img: '/src/assets/portaf.svg',
     github: 'https://github.com/greluma/unsplash-images-tuto',
     title: 'This portafolio repository',
     text: 'For this project I used React, Vite.js and Tailwind CSS',

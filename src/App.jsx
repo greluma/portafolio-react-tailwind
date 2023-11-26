@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
 import { useState } from 'react';
+import Footer from "./components/Footer";
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Skills></Skills>
         <About></About>
         <Projects></Projects>
+        <Footer></Footer>
       </div>
     </div>
   )

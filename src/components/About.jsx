@@ -4,7 +4,7 @@ import SectionTitle from './utils/SectionTitle'
 const About = () => {
 
     return (
-        <section className='bg-white dark:bg-gray-800 py-24' id='about'>
+        <section className='bg-white dark:bg-gray-800 py-10' id='about'>
 
             <div className="align-element grid md:grid-cols-2 items-center gap-16">
                 <img src={aboutImg} alt="about img" className='w-full h-72' />
