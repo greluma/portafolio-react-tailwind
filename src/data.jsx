@@ -13,25 +13,25 @@ export const skills = [
   {
     id: nanoid(),
     title: 'HTML5 & CSS3',
-    icon: <FaHtml5 className='h-16 w-16 text-teal-600' />,
+    icon: <FaHtml5 className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
     text: 'Focused on responsive design and optimization for a variety of devices and browsers.',
   },
   {
     id: nanoid(),
     title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 text-teal-600' />,
+    icon: <FaJs className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
   {
     id: nanoid(),
     title: 'React',
-    icon: <FaReact className='h-16 w-16 text-teal-600' />,
+    icon: <FaReact className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
   {
     id: nanoid(),
     title: 'Additional Features',
-    icon: <FaLaptopCode className='h-16 w-16 text-teal-600' />,
+    icon: <FaLaptopCode className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
     text: 'Tailwind CSS/ reactStyledComponents / Git-GitHub / Redux Toolkit / reactQuery / reactRouter',
   },
 ];
