@@ -57,6 +57,14 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: '/comfy.png',
+    url: 'https://comfy-store-study.netlify.app/',
+    github: 'https://github.com/greluma/comfy-store',
+    title: 'Comfy Store',
+    text: 'A React project for study purposes. I used React, Tailwind, DaisyUI, Redux, and reactQuery',
+  },
+  {
+    id: nanoid(),
     img: '/unsplash.png',
     url: 'https://greluma-unsplash-project.netlify.app/',
     github: 'https://github.com/greluma/unsplash-images-tuto',
@@ -66,7 +74,7 @@ export const projects = [
   {
     id: nanoid(),
     img: '/dev2.svg',
-    github: 'https://github.com/greluma/unsplash-images-tuto',
+    github: 'https://github.com/greluma/portafolio-react-tailwind',
     title: 'This portafolio repository',
     text: 'For this project I used React, Vite.js and Tailwind CSS',
   },

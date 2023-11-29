@@ -3,7 +3,7 @@ import Icons from './utils/Icons';
 
 const Hero = () => {
     return (
-        <div className='bg-teal-200 dark:bg-teal-950 py-24 h-screen' id='home'>
+        <div className='bg-teal-200 dark:bg-teal-950 py-24' id='home'>
             <div className=" align-element align-e grid md:grid-cols-2 items-center gap-8">
                 <article>
                     {/*eslint-disable-next-line react/no-unescaped-entities*/}
