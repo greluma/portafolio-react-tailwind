@@ -1,3 +1,7 @@
+// cspell:disable
+import { RiMailFill } from "react-icons/ri";
+import { FaGithubSquare, FaLinkedin, FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
+
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaLaptopCode } from 'react-icons/fa';
 import { SiTypescript } from "react-icons/si";
@@ -10,46 +14,46 @@ export const links = [
   { id: nanoid(), href: '#projects', text: 'projects' },
 ];
 
+const skillsIconClass = `h-16 w-16 text-teal-600 dark:text-teal-300`;
 export const skills = [
   {
     id: nanoid(),
     title: 'HTML5 & CSS3',
-    icon: <FaHtml5 className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
+    icon: <FaHtml5 className={skillsIconClass} />,
     text: 'Focused on responsive design and optimization for a variety of devices and browsers.',
   },
   {
     id: nanoid(),
     title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
+    icon: <FaJs className={skillsIconClass} />,
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
   {
     id: nanoid(),
     title: 'React',
-    icon: <FaReact className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
+    icon: <FaReact className={skillsIconClass} />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
   {
     id: nanoid(),
     title: 'TypeScript',
-    icon: <SiTypescript className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
+    icon: <SiTypescript className={skillsIconClass} />,
     text: ' I have been using TypeScript for a while now and I really like it. I think it makes the code more readable and easier to understand.',
   },
   {
     id: nanoid(),
     title: 'Next.js',
-    icon: <TbBrandNextjs className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
+    icon: <TbBrandNextjs className={skillsIconClass} />,
     text: 'I believe that Next.js is ideal for building modern, high-performance web applications. I really enjoy working with it.',
   },
   {
     id: nanoid(),
     title: 'Additional Features',
-    icon: <FaLaptopCode className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
+    icon: <FaLaptopCode className={skillsIconClass} />,
     text: 'Tailwind CSS/ reactStyledComponents / Git-GitHub / Redux Toolkit / reactQuery / reactRouter',
   },
 ];
 
-// cspell:disable
 export const projects = [
   {
     id: nanoid(),
@@ -61,9 +65,39 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/portaf.svg',
+    img: '/dev2.svg',
     github: 'https://github.com/greluma/unsplash-images-tuto',
     title: 'This portafolio repository',
     text: 'For this project I used React, Vite.js and Tailwind CSS',
   },
 ];
+
+const socialIconClass = `h-8 w-8 hover:text-teal-600 dark:hover:text-teal-300 dark:text-slate-300 duration-300`;
+export const social = [
+  {
+    id: nanoid(),
+    url: 'mailto:greluma2@gmail.com',
+    icon: <RiMailFill className={socialIconClass} />
+  },
+
+  {
+    id: nanoid(),
+    url: "https://github.com/greluma",
+    icon: <FaGithubSquare className={socialIconClass} />
+  },
+  {
+    id: nanoid(),
+    url: 'https://www.linkedin.com/in/manuel-rodriguez-prieto-252a50242/',
+    icon: <FaLinkedin className={socialIconClass} />
+  },
+  {
+    id: nanoid(),
+    url: "https://www.facebook.com/profile.php?id=100074574602402",
+    icon: <FaFacebookSquare className={socialIconClass} />
+  },
+  {
+    id: nanoid(),
+    url: "https://www.instagram.com/rodriguezprieto__/",
+    icon: <FaInstagramSquare className={socialIconClass} />
+  }
+]

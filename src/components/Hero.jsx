@@ -1,7 +1,5 @@
-// cspell:ignore Linkedin
-import { FaGithubSquare, FaLinkedin, FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
-import { RiMailFill } from "react-icons/ri";
-import heroImg from '../assets/dev1.svg'
+import heroImg from '/dev1.svg'
+import Icons from './utils/Icons';
 
 const Hero = () => {
     return (
@@ -17,11 +15,7 @@ const Hero = () => {
                         turning ideas into interactive reality
                     </p>
                     <div className="flex gap-x-4 mt-4">
-                        <a href="mailto:greluma2@gmail.com" target="_blank" rel='noreferrer'><RiMailFill className='h-8 w-8 hover:text-teal-600 dark:hover:text-teal-300 duration-300 dark:text-white' /></a>
-                        <a href="https://github.com/greluma" target="_blank" rel='noreferrer'><FaGithubSquare className='h-8 w-8 hover:text-teal-600 dark:hover:text-teal-300 duration-300 dark:text-white' /></a>
-                        <a href="https://www.linkedin.com/in/manuel-rodriguez-prieto-252a50242/" target="_blank" rel='noreferrer'><FaLinkedin className='h-8 w-8 hover:text-teal-600 dark:hover:text-teal-300 duration-300 dark:text-white' /></a>
-                        <a href="https://www.facebook.com/profile.php?id=100074574602402" target="_blank" rel='noreferrer'><FaFacebookSquare className='h-8 w-8 hover:text-teal-600 dark:hover:text-teal-300 duration-300 dark:text-white' /></a>
-                        <a href="https://www.instagram.com/rodriguezprieto__/" target="_blank" rel='noreferrer'><FaInstagramSquare className='h-8 w-8 hover:text-teal-600 dark:hover:text-teal-300 duration-300 dark:text-white' /></a>
+                        <Icons />
                     </div>
                 </article>
                 <article >

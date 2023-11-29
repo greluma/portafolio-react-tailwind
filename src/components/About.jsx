@@ -1,4 +1,4 @@
-import aboutImg from '../assets/dev2.svg'
+import aboutImg from '/dev3.svg'
 import SectionTitle from './utils/SectionTitle'
 
 const About = () => {
