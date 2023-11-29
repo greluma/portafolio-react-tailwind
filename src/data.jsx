@@ -1,6 +1,7 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
-import { FaLaptopCode } from "react-icons/fa";
+import { FaHtml5, FaJs, FaReact, FaLaptopCode } from 'react-icons/fa';
+import { SiTypescript } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 export const links = [
   // { id: nanoid(), href: '#home', text: 'home' },
@@ -30,6 +31,18 @@ export const skills = [
   },
   {
     id: nanoid(),
+    title: 'TypeScript',
+    icon: <SiTypescript className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
+    text: ' I have been using TypeScript for a while now and I really like it. I think it makes the code more readable and easier to understand.',
+  },
+  {
+    id: nanoid(),
+    title: 'Next.js',
+    icon: <TbBrandNextjs className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
+    text: 'I believe that Next.js is ideal for building modern, high-performance web applications. I really enjoy working with it.',
+  },
+  {
+    id: nanoid(),
     title: 'Additional Features',
     icon: <FaLaptopCode className='h-16 w-16 text-teal-600 dark:text-teal-300' />,
     text: 'Tailwind CSS/ reactStyledComponents / Git-GitHub / Redux Toolkit / reactQuery / reactRouter',
@@ -48,7 +61,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/src/assets/portaf.svg',
+    img: '/portaf.svg',
     github: 'https://github.com/greluma/unsplash-images-tuto',
     title: 'This portafolio repository',
     text: 'For this project I used React, Vite.js and Tailwind CSS',
