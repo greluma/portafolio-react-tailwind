@@ -15,7 +15,7 @@ const Navbar = React.forwardRef(({ darkMode, toggleDarkMode }, ref) => {
                         return <a href={href} key={id} className="capitalize text-lg tracking-wide hover:text-teal-600 dark:hover:text-teal-300 dark:text-white duration-300">{text}</a>
                     })}
                 </div>
-                <section className="toggle-container absolute right-4 top-4 sm:relative sm:right-0 sm:top-0">
+                <section className="toggle-container absolute right-10 top-5 sm:relative sm:right-0 sm:top-0">
                     <div className="flex gap-x-4 sm:gap-x-8 lg:gap-x-12">
                         <button style={{
                             background: 'transparent',
