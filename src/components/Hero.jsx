@@ -4,7 +4,6 @@ import { useAppContext } from './Context';
 
 const Hero = () => {
     const { before } = useAppContext()
-    console.log(`#home${before}`);
     return (
         <div className='bg-teal-200 dark:bg-teal-950 py-24 lg:py-28 relative' id='home' >
             {<style>

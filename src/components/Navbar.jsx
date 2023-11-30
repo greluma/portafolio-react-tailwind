@@ -16,16 +16,18 @@ const Navbar = React.forwardRef(({ darkMode, toggleDarkMode }, ref) => {
                     })}
                 </div>
                 <section className="toggle-container absolute right-4 top-4 sm:relative sm:right-0 sm:top-0">
-                    <button style={{
-                        background: 'transparent',
-                        borderColor: 'transparent',
-                        scale: '2',
-                        cursor: 'pointer'
-                    }} onClick={() => {
-                        toggleDarkMode();
-                    }}>
-                        {darkMode ? <BsFillSunFill className="toggle-icon text-white"></BsFillSunFill> : <BsFillMoonFill className="toggle-icon"></BsFillMoonFill>}
-                    </button>
+                    <div className="flex gap-x-4 sm:gap-x-8 lg:gap-x-12">
+                        <button style={{
+                            background: 'transparent',
+                            borderColor: 'transparent',
+                            scale: '2',
+                            cursor: 'pointer'
+                        }} onClick={() => {
+                            toggleDarkMode();
+                        }}>
+                            {darkMode ? <BsFillSunFill className="toggle-icon text-white"></BsFillSunFill> : <BsFillMoonFill className="toggle-icon"></BsFillMoonFill>}
+                        </button>
+                    </div>
                 </section>
             </div>
         </nav>

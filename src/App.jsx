@@ -23,11 +23,23 @@ export default function App() {
 
   useEffect(() => {
     const navbar = navbarRef.current;
+
     if (navbar) {
-      const height = navbar.offsetHeight;
-      setNavbarHeight(height);
+      const resizeObserver = new ResizeObserver(entries => {
+        for (let entry of entries) {
+          setNavbarHeight(entry.target.offsetHeight);
+        }
+      });
+
+      resizeObserver.observe(navbar);
+
+      return () => {
+        if (navbar) {
+          resizeObserver.unobserve(navbar);
+        }
+      };
     }
-  }, [])
+  }, []);
 
   const before = (`::before {content: ''; display: block; height: ${navbarHeight}px}`)
 
@@ -35,7 +47,7 @@ export default function App() {
     <AppContext.Provider value={{ before }} >
       <div className={`${darkMode ? 'dark' : ''} `}>
         <div className="dark:dark:bg-gray-800">
-          <Navbar ref={navbarRef} darkMode={darkMode} toggleDarkMode={toggleDarkMode}></Navbar>
+          <Navbar ref={navbarRef} darkMode={darkMode} toggleDarkMode={toggleDarkMode} ></Navbar>
           <Hero></Hero>
           <Skills></Skills>
           <About></About>
