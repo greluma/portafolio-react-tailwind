@@ -1,12 +1,13 @@
 import { links } from "../data"
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
+import React from 'react';
 import PropTypes from 'prop-types';
 
-const Navbar = ({ darkMode, toggleDarkMode }) => {
-    // console.log(darkMode);
+
+const Navbar = React.forwardRef(({ darkMode, toggleDarkMode }, ref) => {
     return (
-        <nav className="bg-teal-200 dark:bg-teal-950">
-            <div className="align-element py-4 flex flex-col justify-between  sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
+        <nav ref={ref} className="bg-teal-300 h-fit dark:bg-teal-950 dark:border-b-2 fixed top-0 z-10 w-full shadow-custom-dark dark:shadow-none">
+            <div className="align-element flex flex-col justify-between  sm:flex-row sm:gap-x-16 sm:items-center py-2">
                 <h2 className="text-3xl font-bold dark:text-white">Web<span className="text-teal-600 dark:text-teal-300">Dev</span></h2>
                 <div className="flex gap-x-3">
                     {links.map(link => {
@@ -28,13 +29,15 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                 </section>
             </div>
         </nav>
-    )
-}
+    );
+});
 
 
-PropTypes.propTypes = {
+Navbar.propTypes = {
     darkMode: PropTypes.bool.isRequired,
-    toggleDarkMode: PropTypes.func.isRequired
-}
+    toggleDarkMode: PropTypes.func.isRequired,
+};
 
+
+Navbar.displayName = "Navbar";
 export default Navbar;

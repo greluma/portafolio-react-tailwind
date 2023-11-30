@@ -1,9 +1,15 @@
 import heroImg from '/dev1.svg'
 import Icons from './utils/Icons';
+import { useAppContext } from './Context';
 
 const Hero = () => {
+    const { before } = useAppContext()
+    console.log(`#home${before}`);
     return (
-        <div className='bg-teal-200 dark:bg-teal-950 py-24' id='home'>
+        <div className='bg-teal-200 dark:bg-teal-950 py-24 lg:py-28 relative' id='home' >
+            {<style>
+                {`#home${before}`}
+            </style>}
             <div className=" align-element align-e grid md:grid-cols-2 items-center gap-8">
                 <article>
                     {/*eslint-disable-next-line react/no-unescaped-entities*/}

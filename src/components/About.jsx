@@ -1,6 +1,8 @@
 import aboutImg from '/dev3.svg'
 import SectionTitle from './utils/SectionTitle'
 import { IoMdArrowDropright } from "react-icons/io";
+import { useAppContext } from './Context';
+
 
 const Arrow = () => {
     const style = `inline text-teal-600 dark:text-teal-300`
@@ -11,10 +13,13 @@ const Arrow = () => {
 }
 
 const About = () => {
+    const { before } = useAppContext();
 
     return (
-        <section className='bg-white dark:bg-gray-800 py-10' id='about'>
-
+        <section className='yourElement bg-white dark:bg-gray-800 py-4 relative' id='about'>
+            {<style>
+                {`#about${before}`}
+            </style>}
             <div className="align-element grid md:grid-cols-2 items-center gap-16">
                 <img src={aboutImg} alt="about img" className='w-full h-72' />
                 <div className='grid gap-10'>
