@@ -17,8 +17,8 @@ const Hero = () => {
                     <p className='mt-4 text-3xl text-slate-700 dark:text-slate-100 capitalize tracking-wide'>
                         Front-End Developer
                     </p>
-                    <p className='mt-2 text-lg text-slate-700 dark:text-slate-100 capitalize tracking-wide'>
-                        turning ideas into interactive reality
+                    <p className=' mt-2 text-lg text-slate-700 dark:text-slate-100 capitalize tracking-wide'>
+                        bringing ideas to life through interactivity
                     </p>
                     <div className="flex gap-x-4 mt-4">
                         <Icons />

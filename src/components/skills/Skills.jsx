@@ -8,7 +8,7 @@ import { useAppContext } from '../Context';
 const Skills = () => {
     const { before } = useAppContext()
     return (
-        <section className="align-element dark:bg-gray-800 py-4 relative" id="skills">
+        <section className=" align-element dark:bg-gray-800 py-4 relative" id="skills">
             {<style>
                 {`#skills${before}`}
             </style>}

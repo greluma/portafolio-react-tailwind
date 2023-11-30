@@ -4,7 +4,7 @@ import Icons from './utils/Icons';
 const Footer = () => {
     const date = new Date().getFullYear();
     return (
-        <footer className='border-t-2 grid justify-center text-center py-4 bg-teal-200 dark:bg-teal-950 dark:text-white'>
+        <footer className='border-t-2 grid justify-center text-center py-4 bg-teal-300 dark:bg-teal-950 dark:text-white'>
             <div className=" grid grid-cols-5">
                 <Icons />
             </div>

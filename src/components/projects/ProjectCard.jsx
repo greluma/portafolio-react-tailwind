@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const ProjectCard = ({ url, img, github, title, text }) => {
     // dark:hover:bg-[url(./comfy)]
     return (
-        <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl duration-300 border-2 transform hover:scale-110 dark:hover:bg-teal-950">
+        <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl duration-300 border-2 hover:bg-teal-100 transform hover:scale-110 dark:hover:bg-teal-950">
             <img src={img} alt={title} className="w-full object-cover rounded-t-lg h-0 md:h-32 lg:h-64" />
             <div className="capitalize p-8 text-center">
                 <h2 className="text-xl tracking-wide font-medium text-teal-600 dark:text-teal-300">{title}</h2>
