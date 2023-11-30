@@ -9,7 +9,7 @@ const Navbar = React.forwardRef(({ darkMode, toggleDarkMode }, ref) => {
         <nav ref={ref} className="bg-teal-300 h-fit dark:bg-teal-950 dark:border-b-2 fixed top-0 z-10 w-full shadow-custom-dark dark:shadow-none">
             <div className="align-element flex flex-col justify-between  sm:flex-row sm:gap-x-16 sm:items-center py-2">
                 <h2 className="text-3xl font-bold dark:text-white">Web<span className="text-teal-600 dark:text-teal-300">Dev</span></h2>
-                <div className="flex gap-x-3">
+                <div className="flex gap-x-2 text-sm">
                     {links.map(link => {
                         const { id, href, text } = link;
                         return <a href={href} key={id} className="capitalize text-lg tracking-wide hover:text-teal-600 dark:hover:text-teal-300 dark:text-white duration-300">{text}</a>

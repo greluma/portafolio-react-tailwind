@@ -100,12 +100,12 @@ export const social = [
   },
   {
     id: nanoid(),
-    url: "https://www.facebook.com/profile.php?id=100074574602402",
-    icon: <FaFacebookSquare className={socialIconClass} />
+    url: "https://www.instagram.com/rodriguezprieto__/",
+    icon: <FaInstagramSquare className={socialIconClass} />
   },
   {
     id: nanoid(),
-    url: "https://www.instagram.com/rodriguezprieto__/",
-    icon: <FaInstagramSquare className={socialIconClass} />
-  }
+    url: "https://www.facebook.com/profile.php?id=100074574602402",
+    icon: <FaFacebookSquare className={socialIconClass} />
+  },
 ]
