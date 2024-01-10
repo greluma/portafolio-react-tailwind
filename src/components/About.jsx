@@ -36,8 +36,8 @@ const About = () => {
                             <li> <Arrow />  Effective collaboration with multidisciplinary teams, including designers and backend developers.</li>
                             <li> <Arrow />  Collaborative / Proactive / Solid reasoning / Solution oriented</li>
                             {/* Solid and Clean Code */}
-                            <li className='hidden'> <Arrow /> Implementation of good development practices, including unit testing and version control.</li>
-                            <li className='hidden'> <Arrow /> Building user-centric applications, using methodologies such as SOLID and Clean Code.</li>
+                            <li> <Arrow /> Implementation of good development practices, including unit testing and version control.</li>
+                            <li> <Arrow /> Building user-centric applications, using methodologies such as SOLID and Clean Code.</li>
                         </ul>
                     </article>
                 </div>
