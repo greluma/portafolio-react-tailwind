@@ -35,9 +35,9 @@ const About = () => {
                             <li> <Arrow /> Responsive design and optimization for a variety of devices and browsers.</li>
                             <li> <Arrow />  Effective collaboration with multidisciplinary teams, including designers and backend developers.</li>
                             <li> <Arrow />  Collaborative / Proactive / Solid reasoning / Solution oriented</li>
-                            {/* Solid and Clean Code */}
                             <li> <Arrow /> Implementation of good development practices, including unit testing and version control.</li>
-                            <li> <Arrow /> Building user-centric applications, using methodologies such as SOLID and Clean Code.</li>
+                            {/* Solid and Clean Code */}
+                            {/* <li> <Arrow /> Building user-centric applications, using methodologies such as SOLID and Clean Code.</li> */}
                         </ul>
                     </article>
                 </div>

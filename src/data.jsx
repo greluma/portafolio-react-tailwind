@@ -1,6 +1,8 @@
 // cspell:disable
 import { RiMailFill } from "react-icons/ri";
-import { FaGithubSquare, FaLinkedin, FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
+// import {FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
+
 
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaLaptopCode } from 'react-icons/fa';
@@ -50,7 +52,7 @@ export const skills = [
     id: nanoid(),
     title: 'Additional Features',
     icon: <FaLaptopCode className={skillsIconClass} />,
-    text: 'Tailwind CSS/ reactStyledComponents / Git-GitHub / Redux Toolkit / reactQuery / reactRouter',
+    text: 'Jest - Vitest / Tailwind CSS/ reactStyledComponents / Git-GitHub / Redux Toolkit / reactQuery / reactRouter',
   },
 ];
 
@@ -62,6 +64,14 @@ export const projects = [
     github: 'https://github.com/greluma/comfy-store',
     title: 'Comfy Store',
     text: 'A React project for study purposes. I used React, Tailwind, DaisyUI, Redux, and reactQuery',
+  },
+  {
+    id: nanoid(),
+    img: '/github-users.png',
+    url: 'https://searchforgithubusers.netlify.app/',
+    github: 'https://github.com/greluma/github-users-project',
+    title: 'Github Users',
+    text: "This is a simple React project created for educational purposes, utilizing the GitHub API. It incorporates Styled Components, React Router DOM v6, Fusion Charts for graphics, and Auth0 for authentication.",
   },
   {
     id: nanoid(),
@@ -98,14 +108,16 @@ export const social = [
     url: 'https://www.linkedin.com/in/manuel-rodriguez-prieto-252a50242/',
     icon: <FaLinkedin className={socialIconClass} />
   },
-  {
+  // * Instagram
+  /* {
     id: nanoid(),
     url: "https://www.instagram.com/rodriguezprieto__/",
     icon: <FaInstagramSquare className={socialIconClass} />
-  },
-  {
+  }, */
+  // * Facebook
+  /* {
     id: nanoid(),
     url: "https://www.facebook.com/profile.php?id=100074574602402",
     icon: <FaFacebookSquare className={socialIconClass} />
-  },
+  }, */
 ]
