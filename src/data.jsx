@@ -59,6 +59,14 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: '/focus-todo.png',
+    url: 'https://focus-todo-clon.netlify.app/',
+    github: 'https://github.com/greluma/focus-todoe',
+    title: 'Focus TO-DO',
+    text: 'This is my version of the popular app Focus TO-Do, you can find the original app in Google Play or Microsoft Store. For this project I used React, Tailwind, Redux, reactRouter and reactQuery',
+  },
+  {
+    id: nanoid(),
     img: '/comfy.png',
     url: 'https://comfy-store-study.netlify.app/',
     github: 'https://github.com/greluma/comfy-store',
