@@ -1,11 +1,12 @@
 // cspell:disable
 import { RiMailFill } from "react-icons/ri";
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
+import { TbFileCv } from "react-icons/tb";
 // import {FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
 
 
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact, FaLaptopCode } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaLaptopCode, FaNodeJs, FaDatabase } from 'react-icons/fa';
 import { SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -50,9 +51,21 @@ export const skills = [
   },
   {
     id: nanoid(),
+    title: 'Node.js',
+    icon: <FaNodeJs className={skillsIconClass} />,
+    text: 'I think Node.js is ideal for building fast, scalable backend applications. I enjoy working with it and exploring ways to optimize performance.',
+  },
+  {
+    id: nanoid(),
+    title: 'Data Bases',
+    icon: <FaDatabase className={skillsIconClass} />,
+    text: 'MySQL / MongoDB. Being a web developer, knowing data management and structure is essential to building efficient and scalable applications.',
+  },
+  {
+    id: nanoid(),
     title: 'Additional Features',
     icon: <FaLaptopCode className={skillsIconClass} />,
-    text: 'Jest - Vitest / Tailwind CSS/ reactStyledComponents / Git-GitHub / Redux Toolkit / reactQuery / reactRouter',
+    text: 'Jest - Vitest / Tailwind CSS/ SASS / Redux / Zustand/ Git / SEO and more ...',
   },
 ];
 
@@ -115,6 +128,11 @@ export const social = [
     id: nanoid(),
     url: 'https://www.linkedin.com/in/manuel-rodriguez-prieto-252a50242/',
     icon: <FaLinkedin className={socialIconClass} />
+  },
+  {
+    id: nanoid(),
+    pdf: '/manuelrodriguezprietocv.pdf',
+    icon: <TbFileCv className={socialIconClass} />
   },
   // * Instagram
   /* {

@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className='border-t-2 grid justify-center text-center py-4 bg-teal-300 dark:bg-teal-950 dark:text-white'>
             {/* TODO grid-cols-x: cunado se annaden elementos hay que modificar el layout (esta mal)  */}
-            <div className=" grid grid-cols-3">
+            <div className=" grid grid-cols-4">
                 <Icons />
             </div>
             <h4 className='pt-2 text-teal-800 dark:text-slate-300 font-bold text-lg'>Manuel Alejandro Rodríguez Prieto </h4>
